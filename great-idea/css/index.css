@@ -114,6 +114,7 @@ button {
 	background-color:white;
 	border: 1px solid black;
 	padding: 1.5% 12%;
+	border-radius:4px;
 }
 header img {
 	width:90%;
@@ -146,7 +147,7 @@ footer p {
 
 /* Services.html gen */
 #service-page section{
-	margin:2% 0;
+	margin:4% 0;
 }
 
 /* 	 service info 	 */
@@ -159,10 +160,11 @@ footer p {
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-between;
+	margin: 2% 0;
 }
 .service-category {
 	border: 2px solid black;
-	width: 47%;
+	width: 47.5%;
 	margin: 2% 0;
 	padding: 2%;
 	background-color:#e7e7e7;
@@ -171,6 +173,10 @@ footer p {
 /* 	 service facts	 */
 #service-facts{
 	display:flex;
+	justify-content:space-between;
+}
+#service-facts div{
+	width:47.5%;
 }
 ul {
 	list-style-type: square;
