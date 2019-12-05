@@ -94,6 +94,10 @@ nav a {
 	text-decoration:none;
 	color:silver;
 }
+nav a:hover {
+	color:black;
+	transition: 0.4s;
+}
 
 /* Header styling  */
 header {
@@ -115,6 +119,27 @@ button {
 	border: 1px solid black;
 	padding: 1.5% 12%;
 	border-radius:4px;
+}
+button span{
+	cursor: pointer;
+	display: inline-block;
+	position:relative;
+	transition: 0.5s;
+}
+button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition:0.5s;
+}
+button:hover span {
+	padding-right:25px;
+}
+button:hover span:after {
+	opacity: 1;
+	right: 0;
 }
 header img {
 	width:90%;
