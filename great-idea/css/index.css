@@ -75,6 +75,9 @@ body{
 header, section{
 	margin: 5% 0;
 }
+p {
+	line-height:1.2;
+}
 
 /* Nav bar styling */
 nav {
@@ -99,7 +102,7 @@ header {
 	text-align:center;
 	align-items:center;
 }
-h1 {
+.headline h1 {
 	font-size: 80px;
 	margin: 0;
 }
@@ -133,4 +136,45 @@ header img {
 /* Footer styling  */
 footer p {
 	text-align:center;
+	margin: 8% 0;
+}
+
+
+/* 					 */
+/* 	 services.html	 */
+/* 					 */
+
+/* Services.html gen */
+#service-page section{
+	margin:2% 0;
+}
+
+/* 	 service info 	 */
+#service-info h1{
+	font-size:28px;
+}
+
+/* service categories*/
+#all-service-categories{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.service-category {
+	border: 2px solid black;
+	width: 47%;
+	margin: 2% 0;
+	padding: 2%;
+	background-color:#e7e7e7;
+}
+
+/* 	 service facts	 */
+#service-facts{
+	display:flex;
+}
+ul {
+	list-style-type: square;
+	list-style-position:inside;
+	line-height: 1.5;
+	margin: 3% 0;
 }
