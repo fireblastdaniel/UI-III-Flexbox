@@ -75,3 +75,49 @@ body{
 header, section{
 	margin: 5% 0;
 }
+
+/* Nav bar styling */
+nav {
+	display:flex;
+	justify-content:space-between;
+}
+nav #links {
+	width: 70%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav a {
+	text-decoration:none;
+	color:silver;
+}
+
+/* Header styling  */
+header {
+	display:flex;
+	justify-content: space-between;
+	text-align:center;
+	align-items:center;
+}
+h1 {
+	font-size: 80px;
+	margin: 0;
+}
+.headline {
+	margin:0 10%;
+}
+button {
+	margin-top: 20px;
+}
+img {
+	width:90%;
+}
+
+/* Content styling */
+.about{
+	display:flex;
+}
+
+/* Contact styling */
+
+/* Footer styling  */
